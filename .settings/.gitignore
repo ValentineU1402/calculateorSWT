@@ -1,0 +1,21 @@
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Compiled Files
+*.class
+bin/
+build/
+/bin1/
+java/build/**
