@@ -71,6 +71,12 @@ public class CalculateController {
         if ((first.isBlank() || first.isEmpty()) || (second.isBlank() || second.isEmpty())) {
             result = false;
         }
+        try {
+            parseFloat(second);
+            parseFloat(first);
+        }catch (Exception ex) {
+            result = false;
+        }
             return result;
     }
 
